@@ -1,5 +1,5 @@
 //
-//  CharacterIntegerArrayAdder.h
+//  IntegerCharacterArrayAdder.h
 //  IntegerCharArray
 //
 //  Created by Troy Chmieleski on 8/15/14.

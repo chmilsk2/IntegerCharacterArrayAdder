@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "IntegerConverter.h"
-#import "CharacterIntegerArrayAdder.h"
+#import "IntegerCharacterArrayAdder.h"
 
 @implementation ViewController
 

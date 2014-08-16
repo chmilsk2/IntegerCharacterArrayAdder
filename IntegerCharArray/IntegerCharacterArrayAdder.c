@@ -1,5 +1,5 @@
 //
-//  CharacterIntegerArrayAdder.c
+//  IntegerCharacterArrayAdder.c
 //  IntegerCharArray
 //
 //  Created by Troy Chmieleski on 8/15/14.
@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
-#include "CharacterIntegerArrayAdder.h"
+#include "IntegerCharacterArrayAdder.h"
 #include "IntegerConverter.h"
 
 typedef enum {

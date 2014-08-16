@@ -13,7 +13,7 @@
 		056FEA87199E90E900B9383B /* IntegerCharArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FEA86199E90E900B9383B /* IntegerCharArrayTests.m */; };
 		056FEA92199E915C00B9383B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 056FEA91199E915C00B9383B /* ViewController.m */; };
 		056FEA98199E96D700B9383B /* IntegerConverter.c in Sources */ = {isa = PBXBuildFile; fileRef = 056FEA97199E96D700B9383B /* IntegerConverter.c */; };
-		056FEA9A199E992C00B9383B /* CharacterIntegerArrayAdder.c in Sources */ = {isa = PBXBuildFile; fileRef = 056FEA99199E992C00B9383B /* CharacterIntegerArrayAdder.c */; };
+		056FEA9A199E992C00B9383B /* IntegerCharacterArrayAdder.c in Sources */ = {isa = PBXBuildFile; fileRef = 056FEA99199E992C00B9383B /* IntegerCharacterArrayAdder.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,8 @@
 		056FEA91199E915C00B9383B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		056FEA96199E96AE00B9383B /* IntegerConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerConverter.h; sourceTree = "<group>"; };
 		056FEA97199E96D700B9383B /* IntegerConverter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IntegerConverter.c; sourceTree = "<group>"; };
-		056FEA99199E992C00B9383B /* CharacterIntegerArrayAdder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CharacterIntegerArrayAdder.c; sourceTree = "<group>"; };
-		056FEA9B199E993400B9383B /* CharacterIntegerArrayAdder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterIntegerArrayAdder.h; sourceTree = "<group>"; };
+		056FEA99199E992C00B9383B /* IntegerCharacterArrayAdder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IntegerCharacterArrayAdder.c; sourceTree = "<group>"; };
+		056FEA9B199E993400B9383B /* IntegerCharacterArrayAdder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerCharacterArrayAdder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +89,8 @@
 				056FEA91199E915C00B9383B /* ViewController.m */,
 				056FEA96199E96AE00B9383B /* IntegerConverter.h */,
 				056FEA97199E96D700B9383B /* IntegerConverter.c */,
-				056FEA9B199E993400B9383B /* CharacterIntegerArrayAdder.h */,
-				056FEA99199E992C00B9383B /* CharacterIntegerArrayAdder.c */,
+				056FEA9B199E993400B9383B /* IntegerCharacterArrayAdder.h */,
+				056FEA99199E992C00B9383B /* IntegerCharacterArrayAdder.c */,
 				056FEA7A199E90E900B9383B /* Images.xcassets */,
 				056FEA73199E90E900B9383B /* Supporting Files */,
 			);
@@ -220,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				056FEA9A199E992C00B9383B /* CharacterIntegerArrayAdder.c in Sources */,
+				056FEA9A199E992C00B9383B /* IntegerCharacterArrayAdder.c in Sources */,
 				056FEA92199E915C00B9383B /* ViewController.m in Sources */,
 				056FEA98199E96D700B9383B /* IntegerConverter.c in Sources */,
 				056FEA79199E90E900B9383B /* AppDelegate.m in Sources */,
