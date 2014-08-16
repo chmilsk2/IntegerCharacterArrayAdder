@@ -131,23 +131,29 @@ CharacterArray addTwoIntegersRepresentedAsCharacterArrays(CharacterArray charact
 	return characterSumArray;
 }
 
+void populateNewCharacterArraysWithSumOfFirstTwoCharacterArrays(CharacterArray newCharacterArrays[], int newCount, CharacterArray characterArrays[], int count, CharacterArray sumOfFirstTwoCharacterArrays) {
+	newCharacterArrays[0] = sumOfFirstTwoCharacterArrays;
+	
+	for (int i = 1; i < newCount; i++) {
+		newCharacterArrays[i] = characterArrays[i + 1];
+	}
+}
+
 CharacterArray addIntegersRepresentedAsCharacterArrays(int count, CharacterArray *characterArrays) {
 	CharacterArray characterSumArray = characterArrays[0];
 	
-	if (count > 1) {
-		CharacterArray characterArrayOne = characterArrays[0];
-		CharacterArray characterArrayTwo = characterArrays[1];
-		CharacterArray sumOfTwoIntegerCharacterArrays = addTwoIntegersRepresentedAsCharacterArrays(characterArrayOne, characterArrayTwo);
-		int newCount = count - 1;
-		CharacterArray newCharacterArrays[newCount];
-		newCharacterArrays[0] = sumOfTwoIntegerCharacterArrays;
-		
-		for (int i = 1; i < newCount; i++) {
-			newCharacterArrays[i] = characterArrays[i + 1];
-		}
-		
-		characterSumArray = addIntegersRepresentedAsCharacterArrays(newCount, newCharacterArrays);
+	if (count <= 1) {
+		return characterSumArray;
 	}
+	
+	CharacterArray characterArrayOne = characterArrays[0];
+	CharacterArray characterArrayTwo = characterArrays[1];
+	CharacterArray sumOfTwoIntegerCharacterArrays = addTwoIntegersRepresentedAsCharacterArrays(characterArrayOne, characterArrayTwo);
+	
+	int newCount = count - 1;
+	CharacterArray newCharacterArrays[newCount];
+	populateNewCharacterArraysWithSumOfFirstTwoCharacterArrays(newCharacterArrays, newCount, characterArrays, count, sumOfTwoIntegerCharacterArrays);
+	characterSumArray = addIntegersRepresentedAsCharacterArrays(newCount, newCharacterArrays);
 	
 	return characterSumArray;
 }
