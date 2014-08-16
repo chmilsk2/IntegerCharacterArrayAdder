@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "056FEA6F199E90E900B9383B"
-               BuildableName = "IntegerCharArray.app"
-               BlueprintName = "IntegerCharArray"
-               ReferencedContainer = "container:IntegerCharArray.xcodeproj">
+               BuildableName = "IntegerCharacterArrayAdder.app"
+               BlueprintName = "IntegerCharacterArrayAdder"
+               ReferencedContainer = "container:IntegerCharacterArrayAdder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "056FEA7F199E90E900B9383B"
-               BuildableName = "IntegerCharArrayTests.xctest"
-               BlueprintName = "IntegerCharArrayTests"
-               ReferencedContainer = "container:IntegerCharArray.xcodeproj">
+               BuildableName = "IntegerCharacterArrayAdderTests.xctest"
+               BlueprintName = "IntegerCharacterArrayAdderTests"
+               ReferencedContainer = "container:IntegerCharacterArrayAdder.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "056FEA6F199E90E900B9383B"
-            BuildableName = "IntegerCharArray.app"
-            BlueprintName = "IntegerCharArray"
-            ReferencedContainer = "container:IntegerCharArray.xcodeproj">
+            BuildableName = "IntegerCharacterArrayAdder.app"
+            BlueprintName = "IntegerCharacterArrayAdder"
+            ReferencedContainer = "container:IntegerCharacterArrayAdder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "056FEA6F199E90E900B9383B"
-            BuildableName = "IntegerCharArray.app"
-            BlueprintName = "IntegerCharArray"
-            ReferencedContainer = "container:IntegerCharArray.xcodeproj">
+            BuildableName = "IntegerCharacterArrayAdder.app"
+            BlueprintName = "IntegerCharacterArrayAdder"
+            ReferencedContainer = "container:IntegerCharacterArrayAdder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "056FEA6F199E90E900B9383B"
-            BuildableName = "IntegerCharArray.app"
-            BlueprintName = "IntegerCharArray"
-            ReferencedContainer = "container:IntegerCharArray.xcodeproj">
+            BuildableName = "IntegerCharacterArrayAdder.app"
+            BlueprintName = "IntegerCharacterArrayAdder"
+            ReferencedContainer = "container:IntegerCharacterArrayAdder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

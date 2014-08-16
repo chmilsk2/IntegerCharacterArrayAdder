@@ -15,8 +15,8 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 
-	char characterIntegerArrayOne[] = {'9', '0', '4', '8', '5', '9', '0', '4', '3', '8', '5', '0', '4', '3', '9', '5'};
-	char characterIntegerArrayTwo[] = {'8','4', '3', '5', '7','9','4' ,'3', '7', '5', '4', '3', '9', '8', '5', '7', '4', '3', '9', '8', '5', '7', '4', '3'};
+	char characterIntegerArrayOne[] = {'1', '0'};
+	char characterIntegerArrayTwo[] = {'1', '0'};
 	
 	int characterIntegerArrayOneCount = sizeof(characterIntegerArrayOne)/sizeof(char);
 	int characterIntegerArrayTwoCount = sizeof(characterIntegerArrayTwo)/sizeof(char);

@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		056FEA70199E90E900B9383B /* IntegerCharArray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegerCharArray.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		056FEA70199E90E900B9383B /* IntegerCharacterArrayAdder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegerCharacterArrayAdder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		056FEA74199E90E900B9383B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		056FEA75199E90E900B9383B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		056FEA77199E90E900B9383B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		056FEA78199E90E900B9383B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		056FEA7A199E90E900B9383B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		056FEA80199E90E900B9383B /* IntegerCharArrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntegerCharArrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		056FEA80199E90E900B9383B /* IntegerCharacterArrayAdderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntegerCharacterArrayAdderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		056FEA85199E90E900B9383B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		056FEA86199E90E900B9383B /* IntegerCharArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntegerCharArrayTests.m; sourceTree = "<group>"; };
 		056FEA90199E915C00B9383B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 		056FEA71199E90E900B9383B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				056FEA70199E90E900B9383B /* IntegerCharArray.app */,
-				056FEA80199E90E900B9383B /* IntegerCharArrayTests.xctest */,
+				056FEA70199E90E900B9383B /* IntegerCharacterArrayAdder.app */,
+				056FEA80199E90E900B9383B /* IntegerCharacterArrayAdderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		056FEA6F199E90E900B9383B /* IntegerCharArray */ = {
+		056FEA6F199E90E900B9383B /* IntegerCharacterArrayAdder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 056FEA8A199E90E900B9383B /* Build configuration list for PBXNativeTarget "IntegerCharArray" */;
+			buildConfigurationList = 056FEA8A199E90E900B9383B /* Build configuration list for PBXNativeTarget "IntegerCharacterArrayAdder" */;
 			buildPhases = (
 				056FEA6C199E90E900B9383B /* Sources */,
 				056FEA6D199E90E900B9383B /* Frameworks */,
@@ -138,14 +138,14 @@
 			);
 			dependencies = (
 			);
-			name = IntegerCharArray;
+			name = IntegerCharacterArrayAdder;
 			productName = IntegerCharArray;
-			productReference = 056FEA70199E90E900B9383B /* IntegerCharArray.app */;
+			productReference = 056FEA70199E90E900B9383B /* IntegerCharacterArrayAdder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		056FEA7F199E90E900B9383B /* IntegerCharArrayTests */ = {
+		056FEA7F199E90E900B9383B /* IntegerCharacterArrayAdderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 056FEA8D199E90E900B9383B /* Build configuration list for PBXNativeTarget "IntegerCharArrayTests" */;
+			buildConfigurationList = 056FEA8D199E90E900B9383B /* Build configuration list for PBXNativeTarget "IntegerCharacterArrayAdderTests" */;
 			buildPhases = (
 				056FEA7C199E90E900B9383B /* Sources */,
 				056FEA7D199E90E900B9383B /* Frameworks */,
@@ -156,9 +156,9 @@
 			dependencies = (
 				056FEA82199E90E900B9383B /* PBXTargetDependency */,
 			);
-			name = IntegerCharArrayTests;
+			name = IntegerCharacterArrayAdderTests;
 			productName = IntegerCharArrayTests;
-			productReference = 056FEA80199E90E900B9383B /* IntegerCharArrayTests.xctest */;
+			productReference = 056FEA80199E90E900B9383B /* IntegerCharacterArrayAdderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -179,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 056FEA6B199E90E900B9383B /* Build configuration list for PBXProject "IntegerCharArray" */;
+			buildConfigurationList = 056FEA6B199E90E900B9383B /* Build configuration list for PBXProject "IntegerCharacterArrayAdder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -191,8 +191,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				056FEA6F199E90E900B9383B /* IntegerCharArray */,
-				056FEA7F199E90E900B9383B /* IntegerCharArrayTests */,
+				056FEA6F199E90E900B9383B /* IntegerCharacterArrayAdder */,
+				056FEA7F199E90E900B9383B /* IntegerCharacterArrayAdderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,7 +241,7 @@
 /* Begin PBXTargetDependency section */
 		056FEA82199E90E900B9383B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 056FEA6F199E90E900B9383B /* IntegerCharArray */;
+			target = 056FEA6F199E90E900B9383B /* IntegerCharacterArrayAdder */;
 			targetProxy = 056FEA81199E90E900B9383B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -330,7 +330,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = IntegerCharArray/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IntegerCharacterArrayAdder;
 			};
 			name = Debug;
 		};
@@ -341,7 +341,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = IntegerCharArray/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IntegerCharacterArrayAdder;
 			};
 			name = Release;
 		};
@@ -360,7 +360,7 @@
 				INFOPLIST_FILE = IntegerCharArrayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IntegerCharacterArrayAdderTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -376,7 +376,7 @@
 				INFOPLIST_FILE = IntegerCharArrayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IntegerCharacterArrayAdderTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -384,7 +384,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		056FEA6B199E90E900B9383B /* Build configuration list for PBXProject "IntegerCharArray" */ = {
+		056FEA6B199E90E900B9383B /* Build configuration list for PBXProject "IntegerCharacterArrayAdder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				056FEA88199E90E900B9383B /* Debug */,
@@ -393,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		056FEA8A199E90E900B9383B /* Build configuration list for PBXNativeTarget "IntegerCharArray" */ = {
+		056FEA8A199E90E900B9383B /* Build configuration list for PBXNativeTarget "IntegerCharacterArrayAdder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				056FEA8B199E90E900B9383B /* Debug */,
@@ -402,7 +402,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		056FEA8D199E90E900B9383B /* Build configuration list for PBXNativeTarget "IntegerCharArrayTests" */ = {
+		056FEA8D199E90E900B9383B /* Build configuration list for PBXNativeTarget "IntegerCharacterArrayAdderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				056FEA8E199E90E900B9383B /* Debug */,
