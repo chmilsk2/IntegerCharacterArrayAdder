@@ -97,7 +97,7 @@ CharacterArray addTwoIntegersRepresentedAsCharacterArrays(CharacterArray charact
 	
 	int carry = 0;
 	
-	for (int i = maxSumArrayCount, characterArrayOneIndex = characterArrayOneCount - 1, characterArrayTwoIndex = characterArrayTwoCount - 1, sumArrayIndex = maxSumArrayCount - 1; i >= 0; i--, characterArrayOneIndex--, characterArrayTwoIndex--, sumArrayIndex--) {
+	for (int i = maxSumArrayCount, characterArrayOneIndex = characterArrayOneCount - 1, characterArrayTwoIndex = characterArrayTwoCount - 1, sumArrayIndex = maxSumArrayCount - 1; i > 0; i--, characterArrayOneIndex--, characterArrayTwoIndex--, sumArrayIndex--) {
 		
 		int integerOne = 0;
 		int integerTwo = 0;
