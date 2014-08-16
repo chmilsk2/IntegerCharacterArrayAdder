@@ -9,7 +9,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
-#include <math.h>
 #include "CharacterIntegerArrayAdder.h"
 #include "IntegerConverter.h"
 
@@ -17,27 +16,6 @@ typedef enum {
 	false = 0,
 	true = 1
 } bool;
-
-typedef enum {
-	less = 0,
-	equal = 1,
-	greater = 2
-} Comparator;
-
-
-Comparator comparetwoIntegers(int firstInteger, int secondInteger) {
-	Comparator comparator = 1;
-	
-	if (firstInteger < secondInteger) {
-		comparator = 0;
-	}
-	
-	else if (firstInteger > secondInteger) {
-		comparator = 2;
-	}
-	
-	return comparator;
-}
 
 int min(int first, int second) {
 	int min = (first < second) ? first : second;

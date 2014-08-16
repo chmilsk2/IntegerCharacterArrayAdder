@@ -27,6 +27,7 @@
 	CharacterArray characterArrayTwo = {.count = characterIntegerArrayTwoCount, .array = characterIntegerArrayTwo};
 	
 	CharacterArray characterSumArray = addIntegersRepresentedAsCharacterArrays(numberOfCharacterArrays, characterArrayOne, characterArrayTwo);
+	
 	printCharacterArray(characterArrayOne);
 	printCharacterArray(characterArrayTwo);
 	printCharacterArray(characterSumArray);
