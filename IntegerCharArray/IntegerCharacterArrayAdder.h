@@ -19,4 +19,4 @@ typedef struct {
  *
  *  @return new char array containing the sum
  */
-CharacterArray addIntegersRepresentedAsCharacterArrays(int count, CharacterArray characterArrayOne, ...);
+CharacterArray addIntegersRepresentedAsListOfCharacterArrays(int count, CharacterArray characterArrayOne, ...);

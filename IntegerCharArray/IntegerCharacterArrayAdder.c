@@ -131,7 +131,7 @@ CharacterArray addTwoIntegersRepresentedAsCharacterArrays(CharacterArray charact
 	return characterSumArray;
 }
 
-CharacterArray addIntegersRepresentedAsVariableArgumentListOfCharacterArrays(int count, CharacterArray *characterArrays) {
+CharacterArray addIntegersRepresentedAsCharacterArrays(int count, CharacterArray *characterArrays) {
 	CharacterArray characterSumArray = characterArrays[0];
 	
 	if (count > 1) {
@@ -146,13 +146,13 @@ CharacterArray addIntegersRepresentedAsVariableArgumentListOfCharacterArrays(int
 			newCharacterArrays[i] = characterArrays[i + 1];
 		}
 		
-		characterSumArray = addIntegersRepresentedAsVariableArgumentListOfCharacterArrays(newCount, newCharacterArrays);
+		characterSumArray = addIntegersRepresentedAsCharacterArrays(newCount, newCharacterArrays);
 	}
 	
 	return characterSumArray;
 }
 
-CharacterArray addIntegersRepresentedAsCharacterArrays(int count, CharacterArray characterArrayOne, ...) {
+CharacterArray addIntegersRepresentedAsListOfCharacterArrays(int count, CharacterArray characterArrayOne, ...) {
 	CharacterArray characterArrays[count];
 	characterArrays[0] = characterArrayOne;
 	
@@ -167,7 +167,7 @@ CharacterArray addIntegersRepresentedAsCharacterArrays(int count, CharacterArray
 	
 	va_end(variableArgumentList);
 	
-	CharacterArray sumCharacterArray = addIntegersRepresentedAsVariableArgumentListOfCharacterArrays(count, characterArrays);
+	CharacterArray sumCharacterArray = addIntegersRepresentedAsCharacterArrays(count, characterArrays);
 	
 	return sumCharacterArray;
 }

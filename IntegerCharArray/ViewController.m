@@ -32,7 +32,7 @@
 	CharacterArray characterArrayThree = {.count = characterIntegerArrayThreeCount, .array = characterIntegerArrayThree};
 	CharacterArray characterArrayFour = {.count = characterIntegerArrayFourCount, .array = characterIntegerArrayFour};
 	
-	CharacterArray characterSumArray = addIntegersRepresentedAsCharacterArrays(numberOfCharacterArrays, characterArrayOne, characterArrayTwo, characterArrayThree, characterArrayFour);
+	CharacterArray characterSumArray = addIntegersRepresentedAsListOfCharacterArrays(numberOfCharacterArrays, characterArrayOne, characterArrayTwo, characterArrayThree, characterArrayFour);
 	
 	printCharacterArray(characterArrayOne);
 	printCharacterArray(characterArrayTwo);
